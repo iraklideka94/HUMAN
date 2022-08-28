@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HUMAN</string>
+    <string name="welcome">Welcome</string>
+    <string name="apple">you have an android, <font color='red'> IDIOT!!!</font> </string>
+    <string name="facebook">you don\'t have facebook in your phone</string>
+    <string name="or">or</string>
+    <string name="sign_up">Sign up</string>
+    <string name="log_into_your_account">Login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_the_password">Forgot the password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="already_have_an_account">already have an account?</string>
+    <string name="hello">Hello</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="calculate">calculate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
