@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.human.adapter.HomeAdapter
 import com.example.human.base.BaseFragment
 import com.example.human.databinding.FragmentHomeBinding
-import com.example.human.model.ClothesDataClass
 import com.example.human.resource.Resource
 import kotlinx.coroutines.launch
 
@@ -17,8 +16,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
     private val itemAdapter = HomeAdapter()
 
     private val viewModel: HomeViewModel by viewModels()
-
-    private var counter = 0
 
     override fun viewCreated() {
 
@@ -29,8 +26,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
         itemClick()
 
         listeners()
-
-        counter()
 
     }
 
@@ -79,14 +74,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
 
             itemAdapter.checkClick = {
                 binding.tvCounter.text = it.price
-            }
-        }
-    }
-
-    private fun counter() {
-        binding.apply {
-            ivPlus.setOnClickListener {
-                counter++
             }
         }
     }
